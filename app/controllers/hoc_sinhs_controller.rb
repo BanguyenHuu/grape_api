@@ -14,4 +14,8 @@ class HocSinhsController < ApplicationController
   def get_student
     @student = HocSinh.find_by(id: params[:id])
   end
+
+  def test
+    nil
+  end
 end
